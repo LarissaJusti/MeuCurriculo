@@ -3,8 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const Formacao = () => {
     return (
-      <View>
-        <Text>Formação</Text>
+      <View style={styles.container}>
+        <Text>E.E Prof Waldemar Queiroz - Ensino Médio Completo - Concluído</Text>
+        <Text>ETEC - Curso Tecnico - Atual</Text>
       </View>
     );
   }

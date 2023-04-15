@@ -3,8 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const Experiencia = () => {
     return (
-      <View>
-        <Text>Experiencia</Text>
+      <View style={styles.container}>
+        <Text>ViaCerta - Cursos Profissionalizantes 2022/2023</Text>
+        <Text>Konvix - Estagio Atual 2023</Text>
       </View>
     );
   }

@@ -4,8 +4,8 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 const Home = ({ navigation }) => {
     return (
       <View style={styles.container}>
-        <Text></Text>
-        <Text style={styles.apresentacao}> </Text>
+        <Text>MEU CURRICULO</Text>
+        <Image source={require('../imagem/download.jpeg')}/>
         <Text style={styles.apresentacao}>Larissa Calcanho Justi </Text>
     
         <Button title="Sobre" onPress={ () => navigation.navigate('Sobre') }/>
